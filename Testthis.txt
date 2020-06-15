@@ -1,0 +1,17 @@
+public class checkthis{
+public static void main (String args[]){
+
+		ArrayList<String> arrayList= new ArrayList<String>();
+		arrayList.add("a");
+		arrayList.add("b");
+		arrayList.add("c");
+
+		Iterator<String> it= arrayList.iterator();
+		while(it.hasNext())
+		{
+		System.out.println(it.next());
+		}
+		}
+
+	
+}
